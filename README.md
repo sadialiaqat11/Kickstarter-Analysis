@@ -54,28 +54,32 @@ After we were done with most of the cleaning part in PowerBI, we couldn’t clea
 3. We created a column “Total Reward” where the values were the sum of reward levels using the library re.  
 
 ## Quantitative Analysis  
-What is the mean (total) pledge that projects get? (Not per backer.)
-The total pledged amount to the projects in Board games is approximately 7 million dollars ($7,177,078)
+Q: What is the mean (total) pledge that projects get? (Not per backer)
+
+Ans: The total pledged amount to the projects in Board games is approximately 7 million dollars ($7,177,078)
 And the mean is approximately 13k dollars($13,002).
 
-b. Create a histogram that shows the distribution for the number of backers.
-What does it tell you?
-It is clearly highlighted that most projects receive a low number of backers, while a few attract a significantly higher amount of support (outliers). This suggests an uneven distribution of success, where a small number of projects dominate in terms of backer engagement, the number of backers reaches upto 1000 in some projects.
+Q: Create a histogram that shows the distribution for the number of backers. What does it tell you?
 
-c. What is the success rate of projects?
-55% of the projects were successful.
+Ans: It is clearly highlighted that most projects receive a low number of backers, while a few attract a significantly higher amount of support (outliers). This suggests an uneven distribution of success, where a small number of projects dominate in terms of backer engagement, the number of backers reaches upto 1000 in some projects.
 
-d. Does the success rate differ across US states?
-Yes, States with 100% success rates are: Arizona (AR), Tennessee (TN), Alabama (AL), District of Columbia (DC), Kansas(KS). 
+Q: What is the success rate of projects?
+
+Ans: 55% of the projects were successful.
+
+Q:  Does the success rate differ across US states?
+
+Ans: Yes, States with 100% success rates are: Arizona (AR), Tennessee (TN), Alabama (AL), District of Columbia (DC), Kansas(KS). 
 And the bottom three states with the lowest success rates (not failed) are Missouri (MO), Florida (FL), South Carolina (SC), the success rate for these states are between 25% and 30%.
 
-e. What are the differences between projects that succeed and ones that fail?
+Q: What are the differences between projects that succeed and ones that fail?
+Ans:
 1. The projects that were succeeded had more number of backers, whereas the projects that failed had a small number backers or didn't have any backers to start with.
 2. Number of updates that were given to backers does have an affect on the success rate but we have to be careful about it, the projects that received the most funds were the ones that had not so many updates like upto 100 nor the ones that had too less like 10 or 15, but the most funded projects had the number of updates between 35 to 55.
 3. The more interactions or comments a project had, the more funds it received.
    
-Answer the main challenge: what actions can someone who is about to start a
-Kickstarter campaign take as a result of your analysis and charts?
+Q: Answer the main challenge: what actions can someone who is about to start a Kickstarter campaign take as a result of your analysis and charts?
+Ans:
 1. Choose the best location with the highest success rate.
 2. When you are done with your project, Keep the duration for collecting the funds between 30 to 60 days.
 3. Keep the backers up to dated but not too much.
