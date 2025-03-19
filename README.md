@@ -1,22 +1,23 @@
-# Kickstarter-Analysis
+<img src="Kickstarter-logo.jpg" width="200" height="150"/>
+
+#  Analysis of Kickstarter Website Data (Board Games)
 This repository analyzes Kickstarter data to identify key success factors for board game campaigns. It provides insights and recommendations to help creators optimize their crowdfunding strategy.        
 
- Analysis of Kickstarter Website Data (Board Games)           
+           
 
-Project Overview  
+## Project Overview  
 In this project, we were assigned to analyse data from the Kickstarter website to understand the crowdfunding process and identify key factors that contribute to a successful campaign. Our goal is to provide valuable insights and actionable recommendations for someone who is planning to launch a Kickstarter campaign specifically for a board game.  
 
-Data  
+## Data  
 Source Data  
 • Website link: (Kickstarter web link)  
 • Raw data: (The Data we were given)  
 • Profiled data: (The Data we cleaned using PowerBI)  
 • Cleaned data: (The Data we cleaned using Python)  
 
-Data Acquisition  
+## Data Acquisition  
 The data was web scrapped from the Kickstarter website (the link is given in the above section).  
-
-Data Dictionary  
+ 
 ## Data Dictionary  
 | Column Name         | Description                                                       | Data Type    |  
 |---------------------|-------------------------------------------------------------------|--------------|  
@@ -37,7 +38,7 @@ Data Dictionary
 | `Duration`        | The duration of the project campaign in days                           | Whole Number      |  
 | `Total Reward` | Sum of the rewards or perks that players receive at each `level` | Text      |  
 
-Data Preprocessing  
+## Data Preprocessing  
 The data was first profiled and cleaned in PowerBI, here is a step by step guide for the cleaning:  
 1. Filtered board games from the whole data, because our task was to analyse the board games only.  
 2. The location column had the state and city both together, that column was split into two different columns, state and City/Country.  
@@ -52,9 +53,9 @@ After we were done with most of the cleaning part in PowerBI, we couldn’t clea
 2. We read the file using pandas.  
 3. We created a column “Total Reward” where the values were the sum of reward levels using the library re.  
 
-Quantitative Analysis  
-Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.  
+## Quantitative Analysis  
 
-Qualitative Analysis
+
+## Qualitative Analysis
 
 
